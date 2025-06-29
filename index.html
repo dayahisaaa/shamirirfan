@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgive Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* beige */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: #e0d9ba; /* lighter beige */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>i’m sorry</h1>
+        <p>
+            i know i’ve been difficult these past few days.  
+            you deserve more kindness and understanding, and i want to do better for us.  
+            will you forgive me?
+        </p>
+        <button id="yes-btn">yes</button>
+        <button id="no-btn">no</button>
+    </div>
+    <script>
+        document.getElementById('yes-btn').addEventListener('click', () => {
+            alert("ilysm. i won’t take it for granted.");
+        });
+
+        document.getElementById('no-btn').addEventListener('click', () => {
+            alert("ikut ah, orang malas nak kisah dah");
+        });
+    </script>
+</body>
+</html>
